@@ -8,9 +8,12 @@ const generateRoundCalc = () => {
 	const operator = getRandomSign();
 	const question = `${num1} ${operator} ${num2}`;
 	
-	const correctAnswer = operator === '-' ? num1 - num2 :
-												operator === '+' ? num1 + num2 :
-												num1 * num2;
+	let correctAnswer;
+	switch (operator) {
+		case '+': correctAnswer = num1 + num2; break;
+		case '-': correctAnswer = num1 - num2; break;
+		case '*': correctAnswer = num1 * num2; break;
+	}
 
 	return { question, correctAnswer };
 }
