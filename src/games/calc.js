@@ -1,4 +1,4 @@
-import { getRandomNumber, getRandomSign } from '../math-utils.js';
+import { getRandomNumber, getRandomSign, calculate} from '../math-utils.js';
 
 const descriptionCalc = 'What is the result of the expression?';
 
@@ -7,13 +7,7 @@ const generateRoundCalc = () => {
 	const num2 = getRandomNumber(1, 50);
 	const operator = getRandomSign();
 	const question = `${num1} ${operator} ${num2}`;
-	
-	let correctAnswer;
-	switch (operator) {
-		case '+': correctAnswer = num1 + num2; break;
-		case '-': correctAnswer = num1 - num2; break;
-		case '*': correctAnswer = num1 * num2; break;
-	}
+	const correctAnswer = calculate(num1, operator, num2);
 
 	return { question, correctAnswer };
 }
