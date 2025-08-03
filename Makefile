@@ -9,7 +9,7 @@ brain-games:
 brain-even:
 	node src/games/even.js
 
-brain-even:
+brain-calc:
 	node src/games/calc.js
 
 publish:
