@@ -12,6 +12,15 @@ brain-even:
 brain-calc:
 	node src/games/calc.js
 
+brain-gcd:
+	node src/games/gcd.js
+
+brain-progression:
+	node src/games/progression.js
+
+brain-prime:
+	node src/games/prime.js
+
 publish:
 	npm publish --dry-run
 
