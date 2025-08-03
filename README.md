@@ -6,3 +6,5 @@
 https://asciinema.org/a/Ob6L8oU6dchRdi2eYomL5w4jR // acкинема1
 
 https://asciinema.org/a/0MXKCyijmfeZQEVswCgwYQ6LS // аскинема2
+
+https://asciinema.org/a/WgjcKDM6l4BdDqrRYxwdDNAxV //аскинема3
