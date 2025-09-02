@@ -14,7 +14,7 @@ export default (gameDescription, dataRoundFunc) => {
     if (String(userAnswer) === String(correctAnswer)) {
       console.log('Correct!')
       correctAnswersCount += 1
-    } 
+    }
     else {
       console.log(`"${userAnswer}" is wrong answer ;(. Correct answer was "${correctAnswer}".\nLet's try again, ${name}!`)
       break
